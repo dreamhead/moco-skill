@@ -1,6 +1,6 @@
 # Moco Skill
 
-Moco skill provides Moco HTTP stub server expertise. With this skill, Claude can help you write test mocks, configure JSON stubs, and use Java/REST/WebSocket/SSE/Socket APIs with accurate, up-to-date guidance.
+Moco Skill provides Moco HTTP stub server expertise. With this skill, Claude can help you write test mocks, configure JSON stubs, and use Java/REST/WebSocket/SSE/Socket APIs with accurate, up-to-date guidance.
 
 ## Version
 
@@ -22,6 +22,12 @@ Or add it to your project's `.claude/skills/` directory for project-local use:
 
 ```shell
 git clone https://github.com/dreamhead/moco-skill .claude/skills/moco
+```
+
+To update to the latest version:
+
+```shell
+cd ~/.claude/skills/moco && git pull
 ```
 
 ## Usage
@@ -101,7 +107,7 @@ java -jar moco-runner-1.6.0-standalone.jar http -p 12306 -c foo.json
 
 ## Copyright and license
 
-Copyright 2012-2026 ZHENG Ye
+Copyright 2026 ZHENG Ye
 
 Licensed under MIT License (the "License"); You may obtain a copy of the License in the LICENSE file, or at:
 
