@@ -35,7 +35,7 @@ running(server, () -> {
 ```
 
 ```shell
-java -jar moco-runner-1.6.0-standalone.jar http -p 12306 -c foo.json
+java -jar moco-runner-1.6.1-standalone.jar http -p 12306 -c foo.json
 ```
 
 ## Core Concepts

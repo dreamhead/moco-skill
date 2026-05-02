@@ -11,7 +11,7 @@ SocketServer server = socketServer(12306);
 **Standalone:**
 
 ```shell
-java -jar moco-runner-1.6.0-standalone.jar socket -p 12306 -c foo.json
+java -jar moco-runner-1.6.1-standalone.jar socket -p 12306 -c foo.json
 ```
 
 Socket server only supports content-based request matching and response (no HTTP concepts like URI, headers, etc.).

@@ -6,12 +6,12 @@
 <dependency>
   <groupId>com.github.dreamhead</groupId>
   <artifactId>moco-core</artifactId>
-  <version>1.6.0</version>
+  <version>1.6.1</version>
 </dependency>
 ```
 
 ```groovy
-testImplementation "com.github.dreamhead:moco-core:1.6.0"
+testImplementation "com.github.dreamhead:moco-core:1.6.1"
 ```
 
 ## Server Creation

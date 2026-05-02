@@ -4,7 +4,7 @@ Moco Skill provides Moco HTTP stub server expertise. With this skill, Claude can
 
 ## Version
 
-This skill is based on Moco **1.6.0**. The version number is aligned with the [Moco](https://github.com/dreamhead/moco) release.
+This skill is based on Moco **1.6.1**. The version number is aligned with the [Moco](https://github.com/dreamhead/moco) release.
 
 ## What is Moco
 
@@ -96,7 +96,7 @@ running(server, () -> {
 ```
 
 ```shell
-java -jar moco-runner-1.6.0-standalone.jar http -p 12306 -c foo.json
+java -jar moco-runner-1.6.1-standalone.jar http -p 12306 -c foo.json
 ```
 
 ## Supported Environments
